@@ -385,7 +385,8 @@ async def main():
  \_| |_/ \__,_| \___||_|\_\ \___||_| 
     """ + Style.RESET_ALL)
         
-        print(Fore.CYAN + "MatchQuest Script Edited by @Dhiraj_9619 💫" + "Script created by @pemulungonlinechannel" + Style.RESET_ALL)
+print(Fore.CYAN + "MatchQuest Script Edited by @Dhiraj_9619 💫" + Style.RESET_ALL)
+print(Fore.CYAN + "Script created by @pemulungonlinechannel" + Style.RESET_ALL)
         
         print(line)
         if not await file_exists(args.data):
