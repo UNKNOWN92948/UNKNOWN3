@@ -389,9 +389,9 @@ print(Fore.CYAN + "MatchQuest Script Edited by @Dhiraj_9619 💫" + Style.RESET_
 print(Fore.CYAN + "Script created by @pemulungonlinechannel" + Style.RESET_ALL)
         
         print(line)
-        if not await file_exists(args.data):
-            print(f"{white}Data file: {args.data} {red} file not found!")
-            return
+       if not await file_exists(args.data):
+           print(f"{white}Data file: {args.data} {red} file not found!")
+           return
         datas = [i for i in (await read_file(args.data)).splitlines() if len(i) > 0]
         config = json.loads(await read_file(config_file))
         cfg = Config(
